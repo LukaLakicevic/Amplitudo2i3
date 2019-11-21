@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="article_array">
+        <item>Article 1</item>
+        <item>Article 2</item>
+        <item>Article 3</item>
+        <item>Article 4</item>
+        <item>Article 5</item>
+        <item>Article 6</item>
+        <item>Article 7</item>
+    </string-array>
+
+</resources>
