@@ -34,17 +34,17 @@ public class MainActivity extends AppCompatActivity {
         articlesRecyclerView.setLayoutManager(linearLayoutManager);
 
         String text;
-        text = Resources.getSystem().getString(R.string.template_description);
+        text = getString(R.string.template_description);
 
-        articles.add(new Article("Ekskluzivno","text","https://vignette.wikia.nocookie.net/animecross2roblox/images/e/eb/Base_Goku.png"));
+        articles.add(new Article("Ekskluzivno",text,"https://vignette.wikia.nocookie.net/animecross2roblox/images/e/eb/Base_Goku.png"));
         articles.add(new Article("Najnovije", text, "https://vignette.wikia.nocookie.net/animecross2roblox/images/e/eb/Base_Goku.png"));
         articles.add(new Article("Skandal", text, "https://vignette.wikia.nocookie.net/animecross2roblox/images/e/eb/Base_Goku.png"));
 
         ArticlesAdapter articlesAdapter = new ArticlesAdapter(this, articles);
         articlesRecyclerView.setAdapter(articlesAdapter);
 
-        articles.add(new Article("Test1","blablabla", "test.png"));
-        articles.add(new Article("Test2","blablabla"));
+        articles.add(new Article("Test1",text, "test.png"));
+        articles.add(new Article("Test2",text));
         articlesAdapter.notifyDataSetChanged();
 
         btnInput.setOnClickListener(new View.OnClickListener() {

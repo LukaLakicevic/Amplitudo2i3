@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Amplitudo2</string>
-    <string name="template_description">example from site</string>
+    <string name="template_description">This page shares my best articles to read on topics like health,
+        happiness, creativity, productivity and more.
+        The central question that drives my work is, “How can we live better?”</string>
 </resources>
